@@ -94,8 +94,22 @@ body {
   margin: 0 auto;
 
 }
-
-
+.scroll{
+  width: 8vh;
+  height:5vh;
+ text-align: center;
+}
+.scroll a .mi{
+ display: flex;
+ text-align: center;
+ align-items: center;
+ margin: 5px;
+ color:#000
+}
+a .mi:hover{
+  background-color: #FFD700;
+  border-radius: 10px;
+}
 
 .flexContainer {
   display: flex;
@@ -432,14 +446,30 @@ svg {
     justify-content: column;
   }
   .flexChild{
-    
     width: 100%;
+    
   }
-
+   .case2, .case1, .case3{
+    border-radius: 20px 20px 0px 0px;
+   } 
+  .projectDetails{
+    border: 1px solid #DC5A76;
+    background-color: #FFD700;
+    border-radius: 0px 0px 20px 20px;
+  }
   .details {
     margin:0 auto;
     width: 80%;
     align-self: unset;
+  }
+  .Action{
+    display:none;
+    
+  }
+  .scroll{
+    width: 12vh;
+    height:5vh;
+   margin: 10px;
   }
   
   button:hover {
